@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8eq-C4-Bn6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8eq-C4-Bn6">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <array key="GE_SS_Two_Medium.otf">
             <string>GESSTwoMedium-Medium</string>
-        </array>
-        <array key="iThra-Bold_1.ttf">
-            <string>Ithra-Bold</string>
-        </array>
-        <array key="iThra-Regular_1.ttf">
-            <string>Ithra-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -300,7 +293,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="yuk-eL-fX6">
-                                <rect key="frame" x="107.5" y="324" width="161.5" height="32"/>
+                                <rect key="frame" x="107" y="324" width="161.5" height="32"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="827-6U-qCv">
                                         <rect key="frame" x="0.0" y="0.0" width="41" height="32"/>
@@ -540,34 +533,34 @@
                                 <rect key="frame" x="-4" y="64" width="383" height="554"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0if-1j-1Vy">
-                                <rect key="frame" x="0.0" y="189.5" width="0.0" height="82.5"/>
+                                <rect key="frame" x="116.5" y="189.5" width="142.5" height="82.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="فاطمة برناوي" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BxK-F8-6cl">
-                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="16.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="منصة محامي" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BxK-F8-6cl">
+                                        <rect key="frame" x="38" y="0.0" width="66.5" height="16.5"/>
                                         <fontDescription key="fontDescription" name="Ithra-Regular" family="Ithra" pointSize="14"/>
                                         <color key="textColor" red="0.50588235290000005" green="0.38823529410000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="الآيبان" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riJ-W5-RqL">
-                                        <rect key="frame" x="0.0" y="16.5" width="0.0" height="16.5"/>
+                                        <rect key="frame" x="56" y="16.5" width="30" height="16.5"/>
                                         <fontDescription key="fontDescription" name="Ithra-Bold" family="Ithra" pointSize="14"/>
                                         <color key="textColor" red="0.15686274510000001" green="0.1058823529" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="SA9705000068200878746000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSp-bT-LIs">
-                                        <rect key="frame" x="0.0" y="33" width="0.0" height="16.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="SA97**********************" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSp-bT-LIs">
+                                        <rect key="frame" x="0.0" y="33" width="142.5" height="16.5"/>
                                         <fontDescription key="fontDescription" name="Ithra-Regular" family="Ithra" pointSize="14"/>
                                         <color key="textColor" red="0.50588235290000005" green="0.38823529410000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="رقم الحساب" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJz-w6-tq7">
-                                        <rect key="frame" x="0.0" y="49.5" width="0.0" height="16.5"/>
+                                        <rect key="frame" x="42" y="49.5" width="58.5" height="16.5"/>
                                         <fontDescription key="fontDescription" name="Ithra-Bold" family="Ithra" pointSize="14"/>
                                         <color key="textColor" red="0.15686274510000001" green="0.1058823529" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="68200878746000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bi9-ip-wbK">
-                                        <rect key="frame" x="0.0" y="66" width="0.0" height="16.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="68**************" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bi9-ip-wbK">
+                                        <rect key="frame" x="28.5" y="66" width="85" height="16.5"/>
                                         <fontDescription key="fontDescription" name="Ithra-Regular" family="Ithra" pointSize="14"/>
                                         <color key="textColor" red="0.50588235290000005" green="0.38823529410000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -895,11 +888,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pQb-0v-cF9">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pQb-0v-cF9">
                                 <rect key="frame" x="16" y="20" width="343" height="647"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="qv2-u2-svq">
-                                <rect key="frame" x="98" y="417" width="181" height="41"/>
+                                <rect key="frame" x="97" y="417" width="181" height="41"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKz-Tw-VE6">
                                         <rect key="frame" x="0.0" y="0.0" width="51" height="41"/>
@@ -1484,8 +1477,7 @@
     </scenes>
     <resources>
         <image name="BG.jpg" width="1080" height="1847"/>
-        <image name="BG2.jpg" width="1080" height="1847"/>
-        <image name="BG3.jpg" width="1080" height="1848"/>
+        <image name="BG3.jpg" width="1080" height="1847"/>
         <image name="BG6.jpg" width="1080" height="1920"/>
         <image name="Email.jpg" width="65" height="65"/>
         <image name="Facebook.png" width="128" height="128"/>
